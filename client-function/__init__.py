@@ -49,7 +49,6 @@ async def main(req: func.HttpRequest, starter: str) -> func.HttpResponse:
 
     status_uri = build_api_url(urlparse(req.url).scheme, req.headers.get("host"), instance_id)
     response["statusUri"] = status_uri
-
     return func.HttpResponse(json.dumps(response), headers=headers, status_code=200 )
 
 def build_api_url(scheme, host, instance_id):
