@@ -52,4 +52,4 @@ async def main(req: func.HttpRequest, starter: str) -> func.HttpResponse:
     return func.HttpResponse(json.dumps(response), headers=headers, status_code=200 )
 
 def build_api_url(scheme, host, instance_id):
-    return f"{scheme}/{host}/api/status/{instance_id}"
+    return f"{scheme}://{host}/api/status/{instance_id}"
