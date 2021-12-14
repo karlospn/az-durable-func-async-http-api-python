@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
 
 env:
-  AZURE_FUNCTIONAPP_NAME: func-sa-table-durable-dev
+  AZURE_FUNCTIONAPP_NAME: func-staccount-report-query-dev
   AZURE_FUNCTIONAPP_PACKAGE_PATH: '.'   
   PYTHON_VERSION: '3.8'
                 
