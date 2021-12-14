@@ -1,2 +1,8 @@
 azure-functions
 azure-functions-durable
+azure-appconfiguration==1.1.1
+azure-identity
+azure-keyvault-secrets
+azure-data-tables
+python-dateutil
+cffi
